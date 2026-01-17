@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+.form-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form_header h1 {
+  margin: 0 0 20px 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_component {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container_component div {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.container_component input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 150px;
+  transition: border-color 0.3s;
+}
+
+.container_component input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.calc_btn {
+  border: 1px solid #4CAF50;
+  border-radius: 40px;
+  width: 120px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calc_btn:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.calc_btn:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4CAF50;
+}
+
+.error {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #f44336;
+  font-weight: 500;
+}

@@ -1,27 +1,61 @@
-# CurrencyFrontEnd
+# Currency Converter - React Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+This is the frontend for the Currency Converter application, built with React, TypeScript, and Vite.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Convert between multiple currencies
+- Real-time exchange rates from backend API
+- Modern, responsive UI
+- Built with React 18 and TypeScript
+- Fast development with Vite
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+- Node.js (v16 or higher)
+- npm or yarn
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Development
 
-## Running end-to-end tests
+Run the development server:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm run dev
+```
 
-## Further help
+The app will be available at `http://localhost:4200`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Build
+
+Build for production:
+
+```bash
+npm run build
+```
+
+The build artifacts will be stored in the `dist/` directory.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Technologies
+
+- **React 18** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and dev server
+- **CSS3** - Styling
+
+## API
+
+The frontend connects to the Java Spring Boot backend at `http://localhost:8080` for currency conversion operations.

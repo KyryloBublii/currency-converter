@@ -3,14 +3,14 @@
 ### Description
 A full-stack currency conversion application that allows users to convert between
 different currencies using real-time exchange rates. The project features a Java
-backend with Gradle and a TypeScript frontend, providing a seamless and efficient
-experience.
+backend with Gradle and a modern React + TypeScript frontend, providing a seamless
+and efficient experience.
 
 ### 🚀 Features
 
 - 🔄 Convert between multiple currencies
 - 🌎 Fetches real-time exchange rates from CurrencyAPI
-- 🎨 User-friendly interface built with TypeScript, HTML, and CSS
+- 🎨 User-friendly interface built with React and TypeScript
 - 🏗️ Backend powered by Java and Spring Boot
 - ⚡ Uses Gradle for build automation
   🌐 How It Works
@@ -31,6 +31,8 @@ experience.
 - [CurrencyAPI](https://currencyapi.com/) – Provides real-time exchange rates
   
 **Frontend**
-- TypeScript – Modern JavaScript alternative for frontend logic
-- HTML & CSS – Structure and styling of the UI
-- Fetch API –  Handles API calls to interact with the backend
+- React 18 – Modern UI library for building interactive interfaces
+- TypeScript – Type-safe JavaScript for frontend logic
+- Vite – Fast build tool and development server
+- CSS3 – Modern styling
+- Fetch API – Handles API calls to interact with the backend
