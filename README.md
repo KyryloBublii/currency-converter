@@ -1,8 +1,7 @@
 ---
 title: Currency Converter
 year: 2024
-languages: [Java, TypeScript]
-tags: [Spring Boot, HTML, CSS, Angular, Gradle, REST API, currencyapi]
+tags: [Java, TypeScript, Spring Boot, HTML, CSS, Angular, Gradle, REST API, currencyapi]
 status: complete
 cover: project_images/currency-converter.png
 ---
