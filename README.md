@@ -1,7 +1,7 @@
 ---
 title: Currency Converter
 year: 2024
-tags: [java, spring-boot, angular, typescript, gradle, rest-api, currency, webflux]
+tags: [Java, Spring Boot, Angular, Typescript, Gradle, REST API, currencyapi]
 status: complete
 cover: project_images/currency-converter.png
 ---
